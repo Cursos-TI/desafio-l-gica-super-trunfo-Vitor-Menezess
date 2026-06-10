@@ -13,7 +13,7 @@
                 float Superpoder1;
 
                     // Carta 2
-                char Estado2[20] = "Ceara";                       // No conteudo fala para usar nome de Pais, porém so agora foi mandado usar. e se mudar para pais tera que mudar algumas variaveis pois as informações em numeros dos paises vai ultrapassar o limite de caracteres de algumas variaveis
+                char Estado2[20] = "Ceara";                       
                 char Codigo2[4] ="B02";
                 char Cidade2[50] = "Fortaleza";       
                 unsigned long int Populacao2 = 2428678;
