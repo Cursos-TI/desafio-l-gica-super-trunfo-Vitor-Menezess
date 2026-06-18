@@ -307,19 +307,19 @@
                         
                                     // Exibição de qual carta ganhou (ou e houve empate)
                         if ((ResultadoComparacao1 == 1 && ResultadoComparacao2 == 1) && (ResultadoComparacao3 == 1 && ResultadoComparacao4 == 1)){
-                            printf("Parabéns, Carta 1 ganhou em todos os atributos!");
+                            printf("\n  Parabéns, Carta 1 ganhou em todos os atributos!\n\n");
                         } else if ((ResultadoComparacao1 == 1 && ResultadoComparacao2 == 1) && (ResultadoComparacao3 != ResultadoComparacao4)){
-                            printf("Parabéns, Carta 1 ganhou em 3 atributo!");
+                            printf("\n  Parabéns, Carta 1 ganhou em 3 atributo!\n\n");
                         } else if ((ResultadoComparacao1 != ResultadoComparacao2) && (ResultadoComparacao3 == 1 && ResultadoComparacao4 == 1)){                       
-                          printf("Parabéns, Carta 1 ganhou em 3 atributo!");
+                          printf("\n    Parabéns, Carta 1 ganhou em 3 atributo!\n\n");
                         } else if ((ResultadoComparacao1 != ResultadoComparacao2) && (ResultadoComparacao3 != ResultadoComparacao4)){
-                            printf("Ambas as cartas fizeram dois pontos, logo houve um empate!!");
+                            printf("\n  Ambas as cartas fizeram dois pontos, logo houve um empate!!\n\n");
                         } else if ((ResultadoComparacao1 == 0 && ResultadoComparacao2 == 0) && (ResultadoComparacao3 == 0 && ResultadoComparacao4 == 0)){
-                            printf("Parabéns, Carta 2 ganhou em todos os atributos!");
+                            printf("\n  Parabéns, Carta 2 ganhou em todos os atributos!\n\n");
                         } else if ((ResultadoComparacao1 == 0 && ResultadoComparacao2 == 0) && (ResultadoComparacao3 != ResultadoComparacao4)){
-                            printf("Parabéns, Carta 2 ganhou em 3 atributo!\n\n");
+                            printf("\n  Parabéns, Carta 2 ganhou em 3 atributo!\n\n");
                         } else {
-                            printf("Parabéns, carta 2 ganhou em 3 atributo!!\n\n");
+                            printf("\n  Parabéns, carta 2 ganhou em 3 atributo!!\n\n");
                         }
                         
                             
