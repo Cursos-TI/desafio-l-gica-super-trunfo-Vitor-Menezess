@@ -274,7 +274,7 @@
                         case 6:
                     printf("\n\n   *Sua escolha foi *Com o maior super poder*.\n");
                                         // impressão da carta 1
-                            printf("\n *** Impressão das cartas *** \n");
+                            printf("\n\n *** Impressão das cartas *** \n\n");
                             printf("*** Carta 1 ***\n");
                             printf("Estado: %c\n", Estado1);
                             printf("Código: %s\n", Codigo1);
